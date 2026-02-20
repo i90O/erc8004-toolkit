@@ -1,0 +1,19 @@
+{
+  "name": "erc8004-toolkit",
+  "version": "1.0.0",
+  "description": "ERC-8004 Agent Identity Toolkit - Query, verify and register AI agent identities on-chain",
+  "main": "src/cli.js",
+  "type": "module",
+  "bin": {
+    "erc8004": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js"
+  },
+  "keywords": ["erc-8004", "ai-agent", "ethereum", "identity", "nft"],
+  "author": "kk",
+  "license": "MIT",
+  "dependencies": {
+    "viem": "^2.46.2"
+  }
+}
